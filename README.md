@@ -13,6 +13,15 @@ Kinesis Video Streams - Real-Time Monitoring은 AWS 기반 실시간 데이터 �
 - **실시간 웹 프론트엔드**: S3 + CloudFront 기반 정적 웹 호스팅 및 실시간 모니터링 UI 제공
 - **인증 및 보안**: AWS Cognito 및 IAM 인증 방식 적용
 
+## 아키텍처
+
+![아키텍처](./architecture.jpg)
+
+## 시연영상
+
+![001](./001.gif)
+![002](./002.gif)
+
 ## 디렉토리 구조
 
 프로젝트는 다음과 같은 디렉토리 구조로 구성됩니다.
