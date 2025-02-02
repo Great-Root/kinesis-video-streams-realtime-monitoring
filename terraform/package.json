@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@aws-sdk/credential-providers": "^3.738.0"
+  }
+}

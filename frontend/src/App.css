@@ -1,0 +1,85 @@
+/* 기존 스타일 유지 */
+.logsHeader {
+  margin: 1em 0;
+  color: white;
+}
+
+.controls-form-header {
+  margin: 1em 0 0 0;
+  color: white;
+}
+
+.controls-button {
+  margin: 1em 1.5em 0 0;
+  float: left;
+  background-color: var(--amplify-colors-blue-60);
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+#logsScrollView {
+  width: 960px;
+  max-width: 960px;
+  height: 600px;
+  padding: var(--amplify-space-medium);
+  background-color: var(--amplify-colors-blue-10);
+  color: white; /* 기본 텍스트 색상 */
+  overflow-y: auto;
+  border-radius: 8px;
+  border: 1px solid var(--amplify-colors-blue-60);
+}
+
+/* ✅ "아직 수신된 메시지가 없습니다." 메시지는 검은색으로 설정 */
+.empty-message {
+  color: rgba(0, 0, 0, 75) !important;
+  font-weight: bold;
+}
+
+.alert-message {
+  color: black !important;
+}
+
+.preserve-whitespace {
+  white-space: pre-wrap;
+}
+
+video,
+.video-container {
+  width: 960px;
+  max-width: 100;
+}
+
+/* 기본적인 전체 스타일 */
+body {
+  background-color: #232f3e;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* ✅ 카드 내부 스타일 조정 */
+.amplify-card {
+  background-color: #1a2533 !important; /* ✅ 카드 배경 어둡게 */
+  color: white !important; /* ✅ 카드 내 텍스트 색상 */
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* ✅ 헤더 스타일 */
+header {
+  background-color: #1a2533;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* ✅ 링크 색상 조정 */
+a {
+  color: var(--amplify-colors-blue-40);
+}
+
+a:hover {
+  color: var(--amplify-colors-blue-80);
+}
